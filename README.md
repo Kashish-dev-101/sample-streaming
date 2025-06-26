@@ -1,2 +1,2 @@
 # sample-streaming
-Building a sboth sample webapp which will stream videos taking user input
+Building a sample webapp which will stream videos taking user input
