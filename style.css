@@ -1,1 +1,95 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+  }
+  
+  .header {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    position: relative;
+    color: white;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.55);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .branding {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  
+  .branding h1 {
+    font-size: 2rem;
+  }
+  
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+  
+  #video-url {
+    width: 70%;
+    max-width: 620px;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 14px;
+  }
+  
+  .controls {
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  .format-options {
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1rem;
+  }
+  
+  button#play-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button#play-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .video-container {
+    max-width: 860px;
+    margin: 0 auto 60px;
+    text-align: center;
+  }
+  
+  video {
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  }
+  
